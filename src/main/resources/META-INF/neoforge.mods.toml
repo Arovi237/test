@@ -1,0 +1,41 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="21," #mandatory
+license="MIT"
+
+[[mods]] #mandatory
+
+modId="craftable_nugget_of_experience" #mandatory
+version="1.0.0" #mandatory
+displayName="Create: Craftable Nugget of Experience" #mandatory
+authors="arovi"
+description='''Create experience nuggets'''
+
+[[dependencies.craftable_nugget_of_experience]] #optional
+    modId="neoforge" #mandatory
+    type="required" #mandatory
+    versionRange="21,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.craftable_nugget_of_experience]]
+    modId="minecraft"
+    type="required"
+    versionRange="1.21,"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.craftable_nugget_of_experience]]
+    modId="create"
+    type="required"
+    versionRange="[0.6.1,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.craftable_nugget_of_experience]]
+    modId="create_enchantment_industry"
+    type="required"
+    versionRange="[0.6.1,)"
+    ordering="AFTER"
+    side="BOTH"

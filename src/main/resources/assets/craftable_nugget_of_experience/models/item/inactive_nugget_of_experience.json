@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "craftable_nugget_of_experience:item/inactive_nugget_of_experience"
+  }
+}

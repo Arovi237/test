@@ -1,0 +1,15 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "craftable_nugget_of_experience:inactive_nugget_of_experience" },
+    {
+      "fluid": {
+        "fluid": "create_enchantment_industry:experience",
+        "amount": 60
+      }
+    }
+  ],
+  "results": [
+    { "item": "create:experience_nugget" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ELE",
+    " E "
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald" },
+    "L": { "item": "minecraft:lapis_lazuli" }
+  },
+  "result": {
+    "item": "craftable_nugget_of_experience:inactive_nugget_of_experience",
+    "count": 8
+  }
+}
